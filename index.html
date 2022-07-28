@@ -35,7 +35,7 @@
   <header>
     <!------------ Navbar -------->
 
-    <nav class="navbar navbar-expand-lg bg-light p-3">
+    <nav class="navbar navbar-expand-lg bg-white p-3">
       <div class="container">
         <a class="navbar-brand fw-bold fs-3" href="#">Tech Station</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -153,12 +153,12 @@
   <!------ Header Section Ends ----->
 
 
-  <main class="mt-5">
+  <main class="pt-3">
 
     <!------  Our Courses Section  -------->
-    <section>
+    <section class="my-3">
 
-      <div class="mb-5">
+      <div class="my-">
         <h2 class="display-4 text-center">Discover Our Popular <br> Courses</h2>
         <p class="text-center">It is a long established fact that a reader will be distracted by the readable <br>
           content of a page when looking at its layout.</p>
@@ -166,9 +166,7 @@
     </section>
 
 
-
-
-    <section class="container mb-5">
+    <section class="container mb-5 py-5">
       <div class="row">
 
         <div class="col-12 col-md-12 col-lg-6">
@@ -214,7 +212,7 @@
         </div>
 
 
-        <div class="col-12 col-md-12 col-lg-6 ">
+        <div class="col-12 col-md-12 col-lg-6 d-none d-lg-block">
           <div class="d-flex flex-column flex-sm-row flex-md-row flex-lg-row  align-items-center justify-content-between border my-3">
             <div class="w-75">
               <img class="img-fluid w-100" src="images/course/course-2.png" alt="">
@@ -270,9 +268,9 @@
 
 <!----- Registration area starts ------->
 
-<section class="my-5 bg-primary container p-5 rounded-2">
+<section class="my-5 bg-primary container py-5 rounded-2">
 
-<div class="d-flex flex-column flex-sm-row flex-md-row flex-lg-row justify-content-around align-items-center">
+<div class="d-flex flex-column flex-sm-column flex-md-column flex-lg-row justify-content-around align-items-center">
   <div class="text-white">
     <h3 class="display-4">Ready to join</h3>
     <p>It is a long established fact that a reader will be distracted <br> by the readable content of a page when looking at its layout.</p>
@@ -280,59 +278,59 @@
   
  
 
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-outline-info text-white fw-bold" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+<!--  Modal  Area Starts-->
+
+
+<button type="button" class="btn btn-primary bg-white text-primary fw-bold" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
   Register Now
 </button>
 
-<!-- Modal -->
 <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+        <h5 class="modal-title" id="staticBackdropLabel">Join Us Today !</h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        ...
+
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">Enter your email adress</div>
+          </div>
+
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword2" class="form-label"> Confirm Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword2">
+          </div>
+
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1"> Accept our <a href="#" class="text-decoration-none">terms</a> and <a href="#" class="text-decoration-none"> conditions</a></label>
+          </div>
+        </form>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Understood</button>
+        <button type="button" class="btn btn-primary">Submit</button>
       </div>
     </div>
   </div>
 </div>
-
-
-
 </div>
-
-
-
-
-
-
 </section>
-
-
-
-
-
-
-
-
 <!----- Registration area Ends ------->
-
-
-
-
-
 
 
 <!-----FAQ Section Starts -------->
 
-    <section class="container my-5">
+    <section class="container my-5 py-5">
 
       <div class="text-center mb-5">
         <h2 class="display-4">Frequently Asked Questions</h2>
@@ -417,6 +415,38 @@
 
 <!-----FAQ Section Ends -------->
 
+
+<!------ Trusted By Section Starts -------->
+<section class="my-5 py-5 container-fluid w-100 d-none d-lg-block">
+
+<div class="p-5 text-center">
+  <h3 class="display-4">Trusted by over 800+ companies</h3>
+</div>
+
+<div class="d-flex justify-content-center mb-5">
+  <img class="img-fluid px-4" src="images/company/company-1.png" alt="">
+  <img class="img-fluid px-4" src="images/company/company-2.png" alt="">
+  <img class="img-fluid px-4" src="images/company/company-3.png" alt="">
+  <img class="img-fluid px-4" src="images/company/company-4.png" alt="">
+  <img class="img-fluid px-4" src="images/company/company-5.png" alt="">
+  <img class="img-fluid px-4" src="images/company/company-6.png" alt="">
+</div>
+
+
+
+
+</section>
+
+<!------ Trusted By Section Ends -------->
+
+
+
+
+
+
+
+
+
   </main>
 
 
@@ -456,10 +486,6 @@
 
 
 </footer>
-
-
-
-
 
 <!------ Footer Ends ------->
 
